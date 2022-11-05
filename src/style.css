@@ -3,12 +3,6 @@
     margin: 0;
 }
 
-p, h1,
-table, button,
-label {
-    font-family: 'Indie Flower';
-}
-
 p, table {
     font-size: 22px;
 }
