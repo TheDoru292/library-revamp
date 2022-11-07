@@ -7,12 +7,9 @@ p, table {
     font-size: 22px;
 }
 
-p, button {
-    font-weight: bold;
-}
-
 table {
     border-spacing: 1px;
+    font-family: 'Indie Flower';
 }
 
 td, th {
@@ -44,6 +41,7 @@ button {
 .App-header {
     display: flex;
     min-height: 60px;
+    width: 100%;
     justify-self: center;
     align-items: center;
 }
@@ -55,12 +53,29 @@ button {
     margin: 0 auto;
 }
 
+.App-header .heading {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.App-header a {
+    text-decoration: none;
+    color: black;
+}
+
+.App-header .button {
+    width: 100px;
+    flex-shrink: 0;
+}
+
 .top {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .buttons {
@@ -137,6 +152,28 @@ button {
 
 .author {
     width: 150px;
+}
+
+.item-title-stuff {
+    display: flex;
+    flex-direction: row;
+}
+
+.item-title {
+    flex-grow: 1;
+}
+
+.item-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.item-buttons p {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
 }
 
 .App-footer {
